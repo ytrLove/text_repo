@@ -257,6 +257,9 @@
         <mxCell id="VIT-3oQ_4zgcREdIxFIY-64" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.69;entryY=0.916;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VIT-3oQ_4zgcREdIxFIY-54" target="VIT-3oQ_4zgcREdIxFIY-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VIT-3oQ_4zgcREdIxFIY-67" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VIT-3oQ_4zgcREdIxFIY-57" target="VIT-3oQ_4zgcREdIxFIY-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
