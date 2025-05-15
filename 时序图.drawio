@@ -1,0 +1,1546 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="27.0.3">
+  <diagram id="teacher_course_management" name="教师课程管理流程图">
+    <mxGraphModel dx="1169" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-20" value="学生" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="123" y="944" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-21" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-20">
+          <mxGeometry x="45" y="96" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-22" value="前端界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="944" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-23" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-22">
+          <mxGeometry x="45" y="96" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-24" value="1: 填写注册信息" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="9EzILnJ5lkc1_4gqIKVP-21" target="9EzILnJ5lkc1_4gqIKVP-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="278" y="1050" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-25" value="系统后台" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="483" y="944" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-26" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-25">
+          <mxGeometry x="45" y="96" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-27" value="2: 提交注册信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="358" y="1060" as="sourcePoint" />
+            <mxPoint x="528" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-28" value="3: 注册成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="358" y="1080" as="targetPoint" />
+            <mxPoint x="528" y="1080" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-29" value="4: 输入登录信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="178" y="1100" as="sourcePoint" />
+            <mxPoint x="348" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-30" value="5: 提交登录信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="358" y="1120" as="sourcePoint" />
+            <mxPoint x="528" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-31" value="6: 验证用户身份" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="528" y="1140" as="sourcePoint" />
+            <mxPoint x="538" y="1140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="573" y="1140" />
+              <mxPoint x="573" y="1150" />
+              <mxPoint x="538" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-32" value="用户界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="663" y="944" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-33" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-32">
+          <mxGeometry x="45" y="206" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-34" value="7: 根据用户身份加载对应界面" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="538" y="1160" as="sourcePoint" />
+            <mxPoint x="708" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-35" value="8: 显示相应界面" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="178" y="1180" as="targetPoint" />
+            <mxPoint x="708" y="1180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-36" value="注册流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="603" y="1010" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-37" value="登录流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="603" y="1090" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-38" value="学生" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1364" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-39" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-38">
+          <mxGeometry x="45" y="70" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-40" value="课程列表界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1364" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-41" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-40">
+          <mxGeometry x="45" y="70" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-42" value="1: 请求查看可选课程列表" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="9EzILnJ5lkc1_4gqIKVP-39" target="9EzILnJ5lkc1_4gqIKVP-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="1444" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-43" value="系统后台" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1364" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-44" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-43">
+          <mxGeometry x="45" y="70" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-45" value="2: 请求课程数据" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1454" as="sourcePoint" />
+            <mxPoint x="540" y="1454" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-46" value="3: 查询课程数据库" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1474" as="sourcePoint" />
+            <mxPoint x="550" y="1474" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="585" y="1474" />
+              <mxPoint x="585" y="1494" />
+              <mxPoint x="550" y="1494" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-47" value="4: 返回可选课程列表" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1514" as="targetPoint" />
+            <mxPoint x="540" y="1514" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-48" value="5: 显示课程列表" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1534" as="targetPoint" />
+            <mxPoint x="360" y="1534" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-49" value="6: 选择感兴趣的课程" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1554" as="sourcePoint" />
+            <mxPoint x="360" y="1554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-50" value="7: 提交选课请求" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1574" as="sourcePoint" />
+            <mxPoint x="540" y="1574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-51" value="8: 更新学生选课数据" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1594" as="sourcePoint" />
+            <mxPoint x="550" y="1594" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="585" y="1594" />
+              <mxPoint x="585" y="1614" />
+              <mxPoint x="550" y="1614" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-52" value="课程表界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="1364" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-53" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-52">
+          <mxGeometry x="45" y="270" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-54" value="10: 请求查看课程表" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1654" as="sourcePoint" />
+            <mxPoint x="720" y="1654" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-55" value="11: 请求课程表数据" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="1674" as="sourcePoint" />
+            <mxPoint x="540" y="1674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-56" value="9: 选课成功确认" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1634" as="targetPoint" />
+            <mxPoint x="540" y="1634" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-57" value="12: 返回课程表数据" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="1694" as="targetPoint" />
+            <mxPoint x="540" y="1694" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-58" value="13: 显示个人课程表" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1714" as="targetPoint" />
+            <mxPoint x="720" y="1714" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-59" value="课程查看流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="1434" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-60" value="选课流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="1514" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-61" value="课程表查看流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="1594" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-134" value="学生" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="123" y="1912" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-135" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-134">
+          <mxGeometry x="45" y="70" width="10" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-136" value="课程界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="1912" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-137" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-136">
+          <mxGeometry x="45" y="70" width="10" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-138" value="1: 进入所选课程" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="9EzILnJ5lkc1_4gqIKVP-135" target="9EzILnJ5lkc1_4gqIKVP-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="278" y="1992" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-139" value="教学资源模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="483" y="1912" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-140" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-139">
+          <mxGeometry x="45" y="90" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-141" value="2: 请求查看教学资源" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="178" y="2012" as="sourcePoint" />
+            <mxPoint x="528" y="2012" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-142" value="3: 加载课程教材、视频等资源" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="528" y="2032" as="sourcePoint" />
+            <mxPoint x="538" y="2032" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="573" y="2032" />
+              <mxPoint x="573" y="2052" />
+              <mxPoint x="538" y="2052" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-143" value="4: 显示教学资源" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="178" y="2072" as="targetPoint" />
+            <mxPoint x="528" y="2072" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-144" value="5: 学习课程内容" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="178" y="2092" as="sourcePoint" />
+            <mxPoint x="188" y="2092" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="223" y="2092" />
+              <mxPoint x="223" y="2112" />
+              <mxPoint x="188" y="2112" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-145" value="作业模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="663" y="1912" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-146" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-145">
+          <mxGeometry x="45" y="210" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-147" value="6: 请求查看作业" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="178" y="2132" as="sourcePoint" />
+            <mxPoint x="708" y="2132" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-148" value="7: 加载课程作业" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="708" y="2152" as="sourcePoint" />
+            <mxPoint x="718" y="2152" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="753" y="2152" />
+              <mxPoint x="753" y="2172" />
+              <mxPoint x="718" y="2172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-149" value="8: 显示作业题目" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="178" y="2192" as="targetPoint" />
+            <mxPoint x="708" y="2192" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-150" value="9: 完成并提交作业" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="178" y="2212" as="sourcePoint" />
+            <mxPoint x="708" y="2212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-151" value="10: 保存作业答案" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="708" y="2232" as="sourcePoint" />
+            <mxPoint x="718" y="2232" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="753" y="2232" />
+              <mxPoint x="753" y="2252" />
+              <mxPoint x="718" y="2252" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-152" value="考试模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="483" y="1912" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-153" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-152">
+          <mxGeometry x="45" y="340" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-154" value="12: 请求参加课程考试" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="178" y="2272" as="sourcePoint" />
+            <mxPoint x="528" y="2272" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-155" value="13: 加载考试题目" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="528" y="2292" as="sourcePoint" />
+            <mxPoint x="538" y="2292" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="573" y="2292" />
+              <mxPoint x="573" y="2312" />
+              <mxPoint x="538" y="2312" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-156" value="14: 显示考试界面" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="178" y="2332" as="targetPoint" />
+            <mxPoint x="528" y="2332" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-157" value="15: 完成并提交考试" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="178" y="2352" as="sourcePoint" />
+            <mxPoint x="528" y="2352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-158" value="16: 评分并记录成绩" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="528" y="2372" as="sourcePoint" />
+            <mxPoint x="538" y="2372" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="573" y="2372" />
+              <mxPoint x="573" y="2392" />
+              <mxPoint x="538" y="2392" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-159" value="11: 提交作业成功确认" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="178" y="2252" as="targetPoint" />
+            <mxPoint x="708" y="2252" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-160" value="17: 显示考试结果" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="178" y="2392" as="targetPoint" />
+            <mxPoint x="528" y="2392" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-161" value="教学资源学习流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="573" y="1982" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-162" value="作业完成流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="573" y="2132" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-163" value="考试参与流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="573" y="2282" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-230" value="学生" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="841" y="744" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-231" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-230">
+          <mxGeometry x="45" y="70" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-232" value="系统导航" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1021" y="744" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-233" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-232">
+          <mxGeometry x="45" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-234" value="1: 点击讨论区导航" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="9EzILnJ5lkc1_4gqIKVP-231" target="9EzILnJ5lkc1_4gqIKVP-233">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="996" y="824" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-235" value="讨论区模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="744" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-236" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-235">
+          <mxGeometry x="45" y="90" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-237" value="2: 转到讨论区" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1076" y="834" as="sourcePoint" />
+            <mxPoint x="1246" y="834" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-238" value="3: 加载学生已加入课程的讨论区列表" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1246" y="854" as="sourcePoint" />
+            <mxPoint x="1256" y="854" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1291" y="854" />
+              <mxPoint x="1291" y="874" />
+              <mxPoint x="1256" y="874" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-239" value="4: 显示所有已加入课程的讨论区" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="896" y="894" as="targetPoint" />
+            <mxPoint x="1246" y="894" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-240" value="5: 选择特定课程讨论区并浏览帖子" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="896" y="914" as="sourcePoint" />
+            <mxPoint x="1246" y="914" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-241" value="6: 加载选定课程的帖子列表" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1246" y="934" as="sourcePoint" />
+            <mxPoint x="1256" y="934" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1291" y="934" />
+              <mxPoint x="1291" y="954" />
+              <mxPoint x="1256" y="954" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-242" value="7: 显示课程讨论区帖子和回复" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="896" y="974" as="targetPoint" />
+            <mxPoint x="1246" y="974" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-243" value="8: 在选定课程讨论区发表新帖子/回复" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="896" y="994" as="sourcePoint" />
+            <mxPoint x="1246" y="994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-244" value="9: 保存帖子/回复内容" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1246" y="1014" as="sourcePoint" />
+            <mxPoint x="1256" y="1014" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1291" y="1014" />
+              <mxPoint x="1291" y="1034" />
+              <mxPoint x="1256" y="1034" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-245" value="10: 确认发布成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="896" y="1054" as="targetPoint" />
+            <mxPoint x="1246" y="1054" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-246" value="课程评价模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1381" y="744" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-247" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-246">
+          <mxGeometry x="45" y="320" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-248" value="11: 导航到我的课程页面" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="896" y="1084" as="sourcePoint" />
+            <mxPoint x="1426" y="1084" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-249" value="12: 加载学生已加入课程的评价表单" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1426" y="1104" as="sourcePoint" />
+            <mxPoint x="1436" y="1104" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1471" y="1104" />
+              <mxPoint x="1471" y="1124" />
+              <mxPoint x="1436" y="1124" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-250" value="13: 显示可评价的课程列表" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="896" y="1144" as="targetPoint" />
+            <mxPoint x="1426" y="1144" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-251" value="14: 选择课程并提交评价和反馈" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="896" y="1164" as="sourcePoint" />
+            <mxPoint x="1426" y="1164" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-252" value="15: 保存评价内容" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1426" y="1184" as="sourcePoint" />
+            <mxPoint x="1436" y="1184" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1471" y="1184" />
+              <mxPoint x="1471" y="1204" />
+              <mxPoint x="1436" y="1204" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-253" value="16: 确认评价提交成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="896" y="1224" as="targetPoint" />
+            <mxPoint x="1426" y="1224" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-254" value="讨论区导航流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1291" y="814" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-255" value="课程讨论区交互流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1291" y="954" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-256" value="课程评价流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1291" y="1114" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-257" value="教师" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1561" y="744" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-258" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-257">
+          <mxGeometry x="45" y="130" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-259" value="" style="endArrow=classic;html=1;exitX=1.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9EzILnJ5lkc1_4gqIKVP-236">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1271" y="914" as="sourcePoint" />
+            <mxPoint x="1601" y="924" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-260" value="通知教师有新的讨论" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9EzILnJ5lkc1_4gqIKVP-259">
+          <mxGeometry x="0.1385" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-261" value="" style="endArrow=classic;html=1;dashed=1;exitX=-0.1;exitY=0.714;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.782;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9EzILnJ5lkc1_4gqIKVP-258" target="9EzILnJ5lkc1_4gqIKVP-236">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1571" y="934" as="sourcePoint" />
+            <mxPoint x="1271" y="934" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-262" value="教师回复学生讨论" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9EzILnJ5lkc1_4gqIKVP-261">
+          <mxGeometry x="0.0897" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-292" value="教师" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1751" y="72" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-293" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-292">
+          <mxGeometry x="45" y="70" width="10" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-294" value="系统导航" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1931" y="72" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-295" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-294">
+          <mxGeometry x="45" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-296" value="1: 点击课程管理" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="9EzILnJ5lkc1_4gqIKVP-293" target="9EzILnJ5lkc1_4gqIKVP-295">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1906" y="152" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-297" value="课程管理模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="2111" y="72" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-298" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-297">
+          <mxGeometry x="45" y="90" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-299" value="2: 进入课程管理界面" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1986" y="162" as="sourcePoint" />
+            <mxPoint x="2156" y="162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-300" value="3: 加载教师已分配课程列表" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2156" y="182" as="sourcePoint" />
+            <mxPoint x="2166" y="182" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2201" y="182" />
+              <mxPoint x="2201" y="202" />
+              <mxPoint x="2166" y="202" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-301" value="4: 显示已分配课程列表" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1806" y="222" as="targetPoint" />
+            <mxPoint x="2156" y="222" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-302" value="5: 选择课程进行管理" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1806" y="242" as="sourcePoint" />
+            <mxPoint x="2156" y="242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-303" value="6: 加载课程详细信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2156" y="262" as="sourcePoint" />
+            <mxPoint x="2166" y="262" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2201" y="262" />
+              <mxPoint x="2201" y="282" />
+              <mxPoint x="2166" y="282" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-304" value="7: 显示课程详细信息" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1806" y="302" as="targetPoint" />
+            <mxPoint x="2156" y="302" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-305" value="8: 修改课程信息（教学内容、进度等）" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1806" y="322" as="sourcePoint" />
+            <mxPoint x="2156" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-306" value="9: 保存课程信息修改" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2156" y="342" as="sourcePoint" />
+            <mxPoint x="2166" y="342" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2201" y="342" />
+              <mxPoint x="2201" y="362" />
+              <mxPoint x="2166" y="362" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-307" value="10: 确认课程信息更新成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1806" y="382" as="targetPoint" />
+            <mxPoint x="2156" y="382" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-308" value="教学资源管理模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="2291" y="72" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-309" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-308">
+          <mxGeometry x="45" y="330" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-310" value="11: 点击资源管理" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1806" y="412" as="sourcePoint" />
+            <mxPoint x="2336" y="412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-311" value="12: 加载课程教学资源" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2336" y="432" as="sourcePoint" />
+            <mxPoint x="2346" y="432" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2381" y="432" />
+              <mxPoint x="2381" y="452" />
+              <mxPoint x="2346" y="452" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-312" value="13: 显示教学资源列表" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="-0.4792" y="-2" relative="1" as="geometry">
+            <mxPoint x="1806" y="472" as="targetPoint" />
+            <mxPoint x="2336" y="472" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-313" value="14: 上传/修改/删除教学资源" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1806" y="492" as="sourcePoint" />
+            <mxPoint x="2336" y="492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-314" value="15: 处理资源管理操作" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2336" y="512" as="sourcePoint" />
+            <mxPoint x="2346" y="512" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2381" y="512" />
+              <mxPoint x="2381" y="532" />
+              <mxPoint x="2346" y="532" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-315" value="16: 确认资源更新成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1806" y="552" as="targetPoint" />
+            <mxPoint x="2336" y="552" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-316" value="17: 为资源添加分类标签" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1806" y="572" as="sourcePoint" />
+            <mxPoint x="2336" y="572" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-317" value="18: 保存资源分类信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2336" y="592" as="sourcePoint" />
+            <mxPoint x="2346" y="592" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2381" y="592" />
+              <mxPoint x="2381" y="612" />
+              <mxPoint x="2346" y="612" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-318" value="19: 确认分类完成" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1806" y="632" as="targetPoint" />
+            <mxPoint x="2336" y="632" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-319" value="课程信息管理流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2201" y="242" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-320" value="教学资源管理流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2201" y="492" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-389" value="教师" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-390" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-389">
+          <mxGeometry x="45" y="70" width="10" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-391" value="系统导航" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-392" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-391">
+          <mxGeometry x="45" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-393" value="1: 点击作业考试管理" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="9EzILnJ5lkc1_4gqIKVP-390" target="9EzILnJ5lkc1_4gqIKVP-392">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-394" value="作业考试管理模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-395" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-394">
+          <mxGeometry x="45" y="90" width="10" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-396" value="2: 进入作业考试管理界面" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="170" as="sourcePoint" />
+            <mxPoint x="525" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-397" value="3: 加载教师课程列表" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="190" as="sourcePoint" />
+            <mxPoint x="535" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="190" />
+              <mxPoint x="570" y="210" />
+              <mxPoint x="535" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-398" value="4: 显示课程列表" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="230" as="targetPoint" />
+            <mxPoint x="525" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-399" value="5: 选择课程并点击创建作业/考试" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="250" as="sourcePoint" />
+            <mxPoint x="525" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-400" value="6: 显示创建界面" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="270" as="targetPoint" />
+            <mxPoint x="525" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-401" value="7: 设计试题和答案" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="290" as="sourcePoint" />
+            <mxPoint x="525" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-402" value="8: 设置开始/截止时间和答题时间" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="310" as="sourcePoint" />
+            <mxPoint x="525" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-403" value="9: 设置作业/考试评分标准" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="330" as="sourcePoint" />
+            <mxPoint x="525" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-404" value="10: 提交创建请求" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="350" as="sourcePoint" />
+            <mxPoint x="525" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-405" value="11: 保存作业/考试信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="370" as="sourcePoint" />
+            <mxPoint x="535" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="370" />
+              <mxPoint x="570" y="390" />
+              <mxPoint x="535" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-406" value="12: 确认创建成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="410" as="targetPoint" />
+            <mxPoint x="525" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-407" value="13: 发布作业/考试" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="430" as="sourcePoint" />
+            <mxPoint x="525" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-408" value="14: 更新发布状态" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="450" as="sourcePoint" />
+            <mxPoint x="535" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="450" />
+              <mxPoint x="570" y="470" />
+              <mxPoint x="535" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-409" value="15: 确认发布成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="490" as="targetPoint" />
+            <mxPoint x="525" y="490" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-410" value="16: 查看学生提交情况" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="510" as="sourcePoint" />
+            <mxPoint x="525" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-411" value="17: 加载提交数据" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="530" as="sourcePoint" />
+            <mxPoint x="535" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="530" />
+              <mxPoint x="570" y="550" />
+              <mxPoint x="535" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-412" value="18: 显示学生提交情况" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="570" as="targetPoint" />
+            <mxPoint x="525" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-413" value="19: 批改作业/考试并评分" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="590" as="sourcePoint" />
+            <mxPoint x="525" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-414" value="20: 保存评分结果" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="610" as="sourcePoint" />
+            <mxPoint x="535" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="610" />
+              <mxPoint x="570" y="630" />
+              <mxPoint x="535" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-415" value="21: 确认评分完成" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="650" as="targetPoint" />
+            <mxPoint x="525" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-416" value="创建作业/考试流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="310" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-417" value="学生提交管理与批改流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="550" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-418" value="学生" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="80" width="105" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-419" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-418">
+          <mxGeometry x="45" y="350" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-422" value="发布作业/考试流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-418">
+          <mxGeometry x="-25" y="357" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-420" value="发送作业/考试通知" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="490" as="sourcePoint" />
+            <mxPoint x="705" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-421" value="提交作业/考试答案" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="705" y="510" as="sourcePoint" />
+            <mxPoint x="535" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-457" value="教师" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="866" y="47" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-458" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-457">
+          <mxGeometry x="45" y="70" width="10" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-459" value="系统导航" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1046" y="47" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-460" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-459">
+          <mxGeometry x="45" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-461" value="1: 点击讨论区导航" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="9EzILnJ5lkc1_4gqIKVP-458" target="9EzILnJ5lkc1_4gqIKVP-460">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1021" y="127" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-462" value="讨论区模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1226" y="47" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-463" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-462">
+          <mxGeometry x="45" y="90" width="10" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-464" value="2: 进入讨论区界面" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1101" y="137" as="sourcePoint" />
+            <mxPoint x="1271" y="137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-465" value="3: 加载教师所教课程讨论区列表" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1271" y="157" as="sourcePoint" />
+            <mxPoint x="1281" y="157" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1316" y="157" />
+              <mxPoint x="1316" y="177" />
+              <mxPoint x="1281" y="177" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-466" value="4: 显示课程讨论区列表" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="921" y="197" as="targetPoint" />
+            <mxPoint x="1271" y="197" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-467" value="5: 选择特定课程讨论区" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="921" y="217" as="sourcePoint" />
+            <mxPoint x="1271" y="217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-468" value="6: 加载课程讨论区内容" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1271" y="237" as="sourcePoint" />
+            <mxPoint x="1281" y="237" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1316" y="237" />
+              <mxPoint x="1316" y="257" />
+              <mxPoint x="1281" y="257" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-469" value="7: 显示学生提问和讨论帖子" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="921" y="277" as="targetPoint" />
+            <mxPoint x="1271" y="277" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-470" value="8: 查看特定讨论帖/提问详情" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="921" y="297" as="sourcePoint" />
+            <mxPoint x="1271" y="297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-471" value="9: 加载帖子详情和回复" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1271" y="317" as="sourcePoint" />
+            <mxPoint x="1281" y="317" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1316" y="317" />
+              <mxPoint x="1316" y="337" />
+              <mxPoint x="1281" y="337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-472" value="10: 显示帖子详情和回复内容" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="921" y="357" as="targetPoint" />
+            <mxPoint x="1271" y="357" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-473" value="11: 回复学生提问/讨论" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="921" y="377" as="sourcePoint" />
+            <mxPoint x="1271" y="377" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-474" value="12: 保存回复内容" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1271" y="397" as="sourcePoint" />
+            <mxPoint x="1281" y="397" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1316" y="397" />
+              <mxPoint x="1316" y="417" />
+              <mxPoint x="1281" y="417" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-475" value="13: 确认回复已发布" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="921" y="437" as="targetPoint" />
+            <mxPoint x="1271" y="437" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-476" value="14: 发起新的主题讨论" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="921" y="457" as="sourcePoint" />
+            <mxPoint x="1271" y="457" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-477" value="15: 保存新主题讨论" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1271" y="477" as="sourcePoint" />
+            <mxPoint x="1281" y="477" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1316" y="477" />
+              <mxPoint x="1316" y="497" />
+              <mxPoint x="1281" y="497" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-478" value="16: 确认主题讨论已发布" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="921" y="517" as="targetPoint" />
+            <mxPoint x="1271" y="517" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-479" value="17: 管理讨论内容（编辑/删除不当内容）" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="921" y="537" as="sourcePoint" />
+            <mxPoint x="1271" y="537" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-480" value="18: 执行管理操作" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1271" y="557" as="sourcePoint" />
+            <mxPoint x="1281" y="557" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1316" y="557" />
+              <mxPoint x="1316" y="577" />
+              <mxPoint x="1281" y="577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-481" value="19: 确认管理操作成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="921" y="597" as="targetPoint" />
+            <mxPoint x="1271" y="597" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-482" value="查看讨论流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1376" y="237" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-483" value="回复提问流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1376" y="377" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-484" value="发起主题讨论流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1376" y="467" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-485" value="讨论内容管理流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1376" y="557" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-486" value="学生" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1406" y="47" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-487" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-486">
+          <mxGeometry x="45" y="270" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-488" value="提交问题/讨论" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9EzILnJ5lkc1_4gqIKVP-463">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1451" y="277" as="sourcePoint" />
+            <mxPoint x="1286" y="277" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-489" value="收到教师回复通知" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1451" y="437" as="targetPoint" />
+            <mxPoint x="1281" y="437" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-490" value="收到新主题讨论通知" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1451" y="517" as="targetPoint" />
+            <mxPoint x="1281" y="517" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-524" value="系统管理员" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="846" y="1562" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-525" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-524">
+          <mxGeometry x="45" y="70" width="10" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-526" value="系统导航" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1026" y="1562" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-527" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-526">
+          <mxGeometry x="45" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-528" value="1: 点击用户管理" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="9EzILnJ5lkc1_4gqIKVP-525" target="9EzILnJ5lkc1_4gqIKVP-527">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1001" y="1642" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-529" value="用户管理模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1206" y="1562" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-530" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-529">
+          <mxGeometry x="45" y="90" width="10" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-531" value="2: 进入用户管理界面" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1081" y="1652" as="sourcePoint" />
+            <mxPoint x="1251" y="1652" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-532" value="3: 加载用户列表" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1251" y="1672" as="sourcePoint" />
+            <mxPoint x="1261" y="1672" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1296" y="1672" />
+              <mxPoint x="1296" y="1692" />
+              <mxPoint x="1261" y="1692" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-533" value="4: 显示平台所有用户列表" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="901" y="1712" as="targetPoint" />
+            <mxPoint x="1251" y="1712" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-534" value="5: 添加新用户" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="901" y="1732" as="sourcePoint" />
+            <mxPoint x="1251" y="1732" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-535" value="6: 显示用户添加表单" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="901" y="1752" as="targetPoint" />
+            <mxPoint x="1251" y="1752" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-536" value="7: 填写用户信息并提交" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="901" y="1772" as="sourcePoint" />
+            <mxPoint x="1251" y="1772" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-537" value="8: 验证用户信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1251" y="1792" as="sourcePoint" />
+            <mxPoint x="1261" y="1792" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1296" y="1792" />
+              <mxPoint x="1296" y="1812" />
+              <mxPoint x="1261" y="1812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-538" value="9: 保存新用户信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1251" y="1832" as="sourcePoint" />
+            <mxPoint x="1261" y="1832" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1296" y="1832" />
+              <mxPoint x="1296" y="1852" />
+              <mxPoint x="1261" y="1852" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-539" value="10: 确认用户添加成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="901" y="1872" as="targetPoint" />
+            <mxPoint x="1251" y="1872" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-540" value="11: 选择用户进行编辑" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="901" y="1892" as="sourcePoint" />
+            <mxPoint x="1251" y="1892" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-541" value="12: 加载用户详细信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1251" y="1912" as="sourcePoint" />
+            <mxPoint x="1261" y="1912" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1296" y="1912" />
+              <mxPoint x="1296" y="1932" />
+              <mxPoint x="1261" y="1932" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-542" value="13: 显示用户编辑界面" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="901" y="1952" as="targetPoint" />
+            <mxPoint x="1251" y="1952" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-543" value="14: 修改用户信息/分配角色权限" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="901" y="1972" as="sourcePoint" />
+            <mxPoint x="1251" y="1972" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-544" value="15: 保存用户修改信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1251" y="1992" as="sourcePoint" />
+            <mxPoint x="1261" y="1992" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1296" y="1992" />
+              <mxPoint x="1296" y="2012" />
+              <mxPoint x="1261" y="2012" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-545" value="16: 确认用户信息更新成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="901" y="2032" as="targetPoint" />
+            <mxPoint x="1251" y="2032" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-546" value="17: 启用/禁用用户账号" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="901" y="2052" as="sourcePoint" />
+            <mxPoint x="1251" y="2052" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-547" value="18: 更新用户账号状态" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1251" y="2072" as="sourcePoint" />
+            <mxPoint x="1261" y="2072" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1296" y="2072" />
+              <mxPoint x="1296" y="2092" />
+              <mxPoint x="1261" y="2092" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-548" value="19: 确认账号状态修改成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="901" y="2112" as="targetPoint" />
+            <mxPoint x="1251" y="2112" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-549" value="添加新用户流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1356" y="1792" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-550" value="编辑用户/分配角色流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1356" y="1952" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-551" value="账号状态管理流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1356" y="2072" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-552" value="用户数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1386" y="1562" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-553" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-552">
+          <mxGeometry x="45" y="270" width="10" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-554" value="存储新用户数据" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0;entryY=0.242;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9EzILnJ5lkc1_4gqIKVP-553">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1261" y="1852" as="sourcePoint" />
+            <mxPoint x="1431" y="1852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-555" value="存储修改后的用户数据" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1261" y="2002" as="sourcePoint" />
+            <mxPoint x="1431" y="2002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-556" value="更新账号状态信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1261" y="2087" as="sourcePoint" />
+            <mxPoint x="1431" y="2087" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-596" value="系统管理员" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="1247" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-597" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-596">
+          <mxGeometry x="45" y="70" width="10" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-598" value="系统导航" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1834" y="1247" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-599" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-598">
+          <mxGeometry x="45" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-600" value="1: 点击课程管理" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="9EzILnJ5lkc1_4gqIKVP-597" target="9EzILnJ5lkc1_4gqIKVP-599">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1809" y="1327" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-601" value="课程管理模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="2014" y="1247" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-602" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-601">
+          <mxGeometry x="45" y="90" width="10" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-603" value="2: 进入课程管理界面" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1889" y="1337" as="sourcePoint" />
+            <mxPoint x="2059" y="1337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-604" value="3: 加载平台课程列表" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2059" y="1357" as="sourcePoint" />
+            <mxPoint x="2069" y="1357" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2104" y="1357" />
+              <mxPoint x="2104" y="1377" />
+              <mxPoint x="2069" y="1377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-605" value="4: 显示所有课程列表" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1397" as="targetPoint" />
+            <mxPoint x="2059" y="1397" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-606" value="5: 创建新课程" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1417" as="sourcePoint" />
+            <mxPoint x="2059" y="1417" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-607" value="6: 显示课程创建表单" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1437" as="targetPoint" />
+            <mxPoint x="2059" y="1437" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-608" value="7: 填写课程基本信息并提交" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1457" as="sourcePoint" />
+            <mxPoint x="2059" y="1457" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-609" value="8: 验证课程信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2059" y="1477" as="sourcePoint" />
+            <mxPoint x="2069" y="1477" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2104" y="1477" />
+              <mxPoint x="2104" y="1497" />
+              <mxPoint x="2069" y="1497" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-610" value="9: 保存新课程基本信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2059" y="1517" as="sourcePoint" />
+            <mxPoint x="2069" y="1517" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2104" y="1517" />
+              <mxPoint x="2104" y="1537" />
+              <mxPoint x="2069" y="1537" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-611" value="10: 确认课程创建成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1557" as="targetPoint" />
+            <mxPoint x="2059" y="1557" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-612" value="11: 为课程分配教师" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1577" as="sourcePoint" />
+            <mxPoint x="2059" y="1577" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-613" value="12: 加载可分配教师列表" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2059" y="1597" as="sourcePoint" />
+            <mxPoint x="2069" y="1597" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2104" y="1597" />
+              <mxPoint x="2104" y="1617" />
+              <mxPoint x="2069" y="1617" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-614" value="13: 显示教师列表" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1637" as="targetPoint" />
+            <mxPoint x="2059" y="1637" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-615" value="14: 选择教师并确认分配" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1657" as="sourcePoint" />
+            <mxPoint x="2059" y="1657" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-616" value="15: 保存课程-教师关联信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2059" y="1677" as="sourcePoint" />
+            <mxPoint x="2069" y="1677" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2104" y="1677" />
+              <mxPoint x="2104" y="1697" />
+              <mxPoint x="2069" y="1697" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-617" value="16: 确认教师分配成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1717" as="targetPoint" />
+            <mxPoint x="2059" y="1717" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-618" value="教师" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="2374" y="1247" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-619" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-618">
+          <mxGeometry x="45" y="460" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-620" value="通知教师课程分配" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2419" y="1717" as="targetPoint" />
+            <mxPoint x="2069" y="1717" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-621" value="课程分类模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="2194" y="1247" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-622" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-621">
+          <mxGeometry x="45" y="330" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-623" value="17: 管理课程分类" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1737" as="sourcePoint" />
+            <mxPoint x="2239" y="1737" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-624" value="18: 加载课程分类数据" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2239" y="1757" as="sourcePoint" />
+            <mxPoint x="2249" y="1757" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2284" y="1757" />
+              <mxPoint x="2284" y="1777" />
+              <mxPoint x="2249" y="1777" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-625" value="19: 显示分类管理界面" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1797" as="targetPoint" />
+            <mxPoint x="2239" y="1797" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-626" value="20: 创建/编辑课程分类" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1817" as="sourcePoint" />
+            <mxPoint x="2239" y="1817" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-627" value="21: 保存分类信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2239" y="1837" as="sourcePoint" />
+            <mxPoint x="2249" y="1837" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2284" y="1837" />
+              <mxPoint x="2284" y="1857" />
+              <mxPoint x="2249" y="1857" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-628" value="22: 确认分类更新成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1857" as="targetPoint" />
+            <mxPoint x="2239" y="1857" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-629" value="创建课程流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2134" y="1477" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-630" value="教师分配流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2334" y="1637" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-631" value="课程分类管理流程" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2134" y="1787" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-632" value="课程数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="2014" y="1867" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-633" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9EzILnJ5lkc1_4gqIKVP-632">
+          <mxGeometry x="45" y="70" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9EzILnJ5lkc1_4gqIKVP-634" value="存储课程数据" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2059" y="1537" as="sourcePoint" />
+            <mxPoint x="2059" y="1937" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
